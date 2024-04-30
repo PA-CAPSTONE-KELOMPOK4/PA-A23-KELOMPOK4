@@ -53,17 +53,17 @@ Program ini dibuat dengan menggunakan bahasa pemrograman Python dan mengimplemen
 
 ### Cara Penggunaan
 - tampilan menu utama
-- 
+  
   ![Screenshot 2024-04-30 085200](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/9ea8986f-46a0-4870-85e6-16318f8677bb)
 
 
 - Jika pilih "1" maka akan menuju ke login pengunjung
-- 
+  
   ![Screenshot 2024-04-30 085209](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/917fecd4-2db8-45fc-9114-0865b3512dce)
 
 
 - jika pilih "1" maka akan muncul tampilan registrasi akun pengunjung yang dimana pengunjung akan memasukkan nama, jenis kelamin, dan usia. jika registrasi berhasil maka pengunjung akan mendapatkan ID akun untuk dipakai pengunjung pada saat login.
-- 
+  
 ![Screenshot 2024-04-30 085301](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/0a666f0a-5b5b-4836-ad00-ade887a3d70c)
 
 
