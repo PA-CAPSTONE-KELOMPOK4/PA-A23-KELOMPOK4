@@ -53,6 +53,7 @@ Program ini dibuat dengan menggunakan bahasa pemrograman Python dan mengimplemen
 
 ### Cara Penggunaan
 - tampilan menu utama
+  Disini user bisa memilih login sebagai admin, login sebagai pengunjung dan keluar dari program.
   
   ![Screenshot 2024-04-30 085200](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/9ea8986f-46a0-4870-85e6-16318f8677bb)
 
@@ -62,8 +63,35 @@ Program ini dibuat dengan menggunakan bahasa pemrograman Python dan mengimplemen
   ![Screenshot 2024-04-30 085209](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/917fecd4-2db8-45fc-9114-0865b3512dce)
 
 
-- jika pilih "1" maka akan muncul tampilan registrasi akun pengunjung yang dimana pengunjung akan memasukkan nama, jenis kelamin, dan usia. jika registrasi berhasil maka pengunjung akan mendapatkan ID akun untuk dipakai pengunjung pada saat login.
+- Didalam menu login pengunjung terdapat 3 pilihan. jika pilih "1" maka akan muncul tampilan registrasi akun pengunjung yang dimana pengunjung akan memasukkan nama, jenis      kelamin, dan usia. jika registrasi berhasil maka pengunjung akan mendapatkan ID akun untuk dipakai pengunjung pada saat login.
   
-![Screenshot 2024-04-30 085301](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/0a666f0a-5b5b-4836-ad00-ade887a3d70c)
+  ![Screenshot 2024-04-30 085301](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/0a666f0a-5b5b-4836-ad00-ade887a3d70c)
+
+
+- Jika pengunjung telah memiliki atau membuat akun maka bisa login dengan memilih pilihan "2" yang dimana pengunjung dapat login menggunakan nama lengkap dan ID pengunjung     yang didapatkan saat registrasi
+
+  ![Screenshot 2024-04-30 085406](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/52b0c54f-8b0d-4f8d-99f0-2755de863b50)
+
+
+- Didalam menu pengunjung terdapat 6 pilihan yang dapat dipilih. Yang pertama pengunjung dapat mencari tempat wisata dengan memasukkan nama wisata yang ingin dicari
+
+![Screenshot 2024-04-30 120857](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/9257bc29-d51a-4069-88b4-ef3eb6abd000)
+
+
+- Pilihan "2" yaitu lihat wisata memungkinkan pengunjung untuk melihat daftar wisata yang ada di Kalimantan Timur
+
+  ![Screenshot 2024-04-30 101825](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/36318d9b-fa6b-4072-87ba-ef9d2ad6d82a)
+
+
+- Pilihan 3 yaitu Urutkan wisata. Pengunjung dapat mengurutkan wisata berdasarkan nama dari awalan A-Z dan Z-A
+
+  ![Screenshot 2024-04-30 112110](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/2887d9f1-6279-47dd-b3a3-285993347bd1)
+
+  ![Screenshot 2024-04-30 112316](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/e3ac976b-eeca-4a4b-a333-c63abba32253)
+
+
+
+
+
 
 
