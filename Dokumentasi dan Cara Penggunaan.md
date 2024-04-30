@@ -96,7 +96,7 @@ Program ini dibuat dengan menggunakan bahasa pemrograman Python dan mengimplemen
 
    ![Screenshot 2024-04-30 101945](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/aea0ffc5-8c9e-47d7-8998-318499bf0097)
 
-jika pilih "2" maka pengunjung bisa memasukkan tempat wisata yang diinginkan ke dalam bookmark
+  jika pilih "2" maka pengunjung bisa memasukkan tempat wisata yang       diinginkan ke dalam bookmark
 
    ![Screenshot 2024-04-30 102014](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/dfa49650-5f56-4af6-9b36-24698715c252)
 
@@ -108,9 +108,64 @@ jika pilih "2" maka pengunjung bisa memasukkan tempat wisata yang diinginkan ke 
 
 ## Menu Admin
 
+- Untuk masuk kedalam menu admin maka admin harus login terlebih dahulu dengan memasukkan username dan password admin.
+
+  ![Screenshot 2024-04-30 151847](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/c30ebc07-d6a3-49fa-a952-14fb81c5f32b)
+
+  jika telah berhasil login maka akan muncul 8 pilihan yang dapat dipilih
+
+
+- Pilihan yang pertama yaitu tambah wisata. Admin dapat menambahkan tempat wisata dengan memasukkan ID, nama, deskripsi, dan lokasi
+
+  ![Screenshot 2024-04-30 152550](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/ec6c3bc3-38ae-43bf-b4ed-87c06c9d7339)
+
+
+- Pilihan yang kedua yaitu Lihat wisata. Admin dapat melihat daftar wisata yang telah dimasukkan ke dalam program
+
+   ![Screenshot 2024-04-30 101825](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/e38a938e-21df-4442-9644-f231ab8b2384)
+
+
+- pilihan yang ketiga yaitu edit wisata. Dibagian ini admin dapat merubah informasi dari daftar wisata yang telah tersedia. Admin dapat mengganti nama, deskripsi, dan lokasi baru
+
+  ![Screenshot 2024-04-30 153149](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/abf03502-5891-4562-9a8c-b16fd2cc008a)
+
+
+- Pilihan yang keempat yaitu hapus wisata. Admin dapat menghapus wisata dengan memasukkan ID wisata yang ingin dihapus.
+
+  ![Screenshot 2024-04-30 153301](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/2e9defb5-c071-4a30-af30-f90547d9b706)
+
+
+- Pilihan yang kelima yaitu cari wisata. Admin dapat mencari tempat wisata dengan mencari menggunakan nama wisata.
+
+  ![Screenshot 2024-04-30 120857](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/292eff92-f650-4d36-805c-1a6988ebc0cd)
+
+
+- Pilihan yang kelima yaitu urutkan wisata. Didalam pilihan ini admin dapat mengurutkan wisata berdasarkan nama dari awalan A-Z dan Z-A
+
+  ![Screenshot 2024-04-30 112110](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/6acf3a30-7a75-4587-a30e-b37b5ab76a89)
+
+  ![Screenshot 2024-04-30 112316](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/4dd760b8-8785-4ca7-8dbb-24f6fea18f09)
+
+
+- Pilihan yang ke tujuh yaitu hubungi sponsor. Admin dapat lihat daftar sponsor dan menghubungi pihak-pihat tertentu untuk bisa melakukan sebuah kerja sama untuk meningkatkan daya tarik dari wisata yang ada di Kalimantan Timur.
+  
+  Pilihan "1" untuk melihat daftar sponsor
+
+  ![Screenshot 2024-04-30 153939](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/5b917b64-9062-480e-a987-cd283c5b97fd)
+
+  pilihan "2" untuk menghubungi sponsor dengan memasukkan nama instansi yang dituju, kontak sponsor, alamat, dan deskripsi penawaran kerja sama
+
+  ![Screenshot 2024-04-30 154223](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/b99b0dbc-92f4-44da-b98e-e83843496b14)
+
+- Pilihan ke delapan yaitu untuk keluar dari program
+
+
+
+
+
+
 
   
-
 
 
 
