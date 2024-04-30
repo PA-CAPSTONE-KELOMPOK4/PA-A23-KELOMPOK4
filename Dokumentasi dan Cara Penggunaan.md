@@ -58,6 +58,8 @@ Program ini dibuat dengan menggunakan bahasa pemrograman Python dan mengimplemen
   ![Screenshot 2024-04-30 085200](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/9ea8986f-46a0-4870-85e6-16318f8677bb)
 
 
+## Menu Pengunjung
+
 - Jika pilih "1" maka akan menuju ke login pengunjung
   
   ![Screenshot 2024-04-30 085209](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/917fecd4-2db8-45fc-9114-0865b3512dce)
@@ -75,20 +77,39 @@ Program ini dibuat dengan menggunakan bahasa pemrograman Python dan mengimplemen
 
 - Didalam menu pengunjung terdapat 6 pilihan yang dapat dipilih. Yang pertama pengunjung dapat mencari tempat wisata dengan memasukkan nama wisata yang ingin dicari
 
-![Screenshot 2024-04-30 120857](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/9257bc29-d51a-4069-88b4-ef3eb6abd000)
+  ![Screenshot 2024-04-30 120857](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/9257bc29-d51a-4069-88b4-ef3eb6abd000)
 
 
-- Pilihan "2" yaitu lihat wisata memungkinkan pengunjung untuk melihat daftar wisata yang ada di Kalimantan Timur
+- Didalam Pilihan "2" yaitu lihat wisata memungkinkan pengunjung untuk melihat daftar wisata yang ada di Kalimantan Timur
 
   ![Screenshot 2024-04-30 101825](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/36318d9b-fa6b-4072-87ba-ef9d2ad6d82a)
 
 
-- Pilihan 3 yaitu Urutkan wisata. Pengunjung dapat mengurutkan wisata berdasarkan nama dari awalan A-Z dan Z-A
+- Pada Pilihan "3" yaitu Urutkan wisata. Pengunjung dapat mengurutkan wisata berdasarkan nama dari awalan A-Z dan Z-A
 
   ![Screenshot 2024-04-30 112110](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/2887d9f1-6279-47dd-b3a3-285993347bd1)
 
   ![Screenshot 2024-04-30 112316](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/e3ac976b-eeca-4a4b-a333-c63abba32253)
 
+
+- Didalam pilihan "4" ada bookmark yang berguna untuk menyimpan tempat wisata yang pengunjung inginkan. Jika pilih "1" maka pengunjung bisa melihat tempat wisata yang telah ditambahkan ke bookmark
+
+   ![Screenshot 2024-04-30 101945](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/aea0ffc5-8c9e-47d7-8998-318499bf0097)
+
+jika pilih "2" maka pengunjung bisa memasukkan tempat wisata yang diinginkan ke dalam bookmark
+
+   ![Screenshot 2024-04-30 102014](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/dfa49650-5f56-4af6-9b36-24698715c252)
+
+
+- Pada pilihan "5" pengunjung bisa melihat profil mereka yang berisi ID pengunjung, nama pengunjung, jenis kelamin, dan usia.
+
+   ![Screenshot 2024-04-30 101903](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/ce3d3aad-8837-4831-bcd1-b5dec52242b2)
+
+
+## Menu Admin
+
+
+  
 
 
 
