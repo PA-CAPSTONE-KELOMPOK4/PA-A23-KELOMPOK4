@@ -9,10 +9,10 @@ class Database:
             host="localhost",
             user="root",  
             password="",   
-            database="tempat_wisata_kaltim")
+            database="wisata_kaltim")
             
         myCursor = self.connection.cursor() 
-        myCursor.execute("USE tempat_wisata_kaltim")
+        myCursor.execute("USE wisata_kaltim")
 
     def find_nama_id(self, nama_user, id_user):
         query = "SELECT * FROM Pengunjung WHERE Nama_Pengunjung = %s AND ID_Pengunjung = %s"
