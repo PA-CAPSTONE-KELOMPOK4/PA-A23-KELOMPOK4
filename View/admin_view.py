@@ -110,14 +110,24 @@ def menu_admin():
                 print("|        CARI TEMPAT WISATA        |")
                 print("====================================")
                 while True:
-                    nama_wisata = input("Masukkan Nama Wisata yang ingin dicari: ").strip().capitalize()
+                    nama_wisata = input("Masukkan Nama Wisata yang ingin dicari: ")
                     hasil_pencarian = linked_list.JumpSearchNamaWisata(nama_wisata)
                     if hasil_pencarian is not None:
-                        print(f"Pesanan dengan ID {nama_wisata} ditemukan.")
-                        print("ID Wisata : ", hasil_pencarian.id_wisata)
+                        print(f"\n<<< Wisata '{nama_wisata}' ditemukan >>>")
+                        print("ID Wisata   : ", hasil_pencarian.id_wisata)
                         print("Nama Wisata : ", hasil_pencarian.nama_wisata)
-                        print("Deskripsi : ", hasil_pencarian.deskripsi)
-                        print("Lokasi : ", hasil_pencarian.lokasi)
+                        # hanya menampilkan 50 karakter dari deskripsi
+                        print("Deskripsi   : ", hasil_pencarian.deskripsi[:50] + "..." if len(hasil_pencarian.deskripsi) > 50 else hasil_pencarian.deskripsi)
+                        print("Lokasi      : ", hasil_pencarian.lokasi)
+
+                        if len(hasil_pencarian.deskripsi) > 50:
+                            if input("\nTekan Enter untuk melihat deskripsi lengkap atau ketik 'k' untuk keluar: ").lower() != 'k':
+                                print("--------------------------------------------------------------")
+                                print("\nDeskripsi Lengkap: ", hasil_pencarian.deskripsi)
+                                print("--------------------------------------------------------------")
+                            else:
+                                break
+                        break
                     break
 
             elif opsi == '6':
