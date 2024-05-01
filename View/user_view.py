@@ -4,6 +4,7 @@ from Controller.ControllerLinkedList import LinkedList
 from Model.Database import Database
 import datetime
 import os
+import sys
 
 acc = Account()
 db = Database()
@@ -30,6 +31,7 @@ def menu_user():
                 login()
             elif pilihan == 3 :
                 MainProgram()
+                sys.exit()
                 break
             else:
                 print("Input tidak valid. masukkan (1/2/3)")
