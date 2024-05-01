@@ -204,7 +204,7 @@ def menu_pengunjung(id_user):
                         bookmark = input("apakah ingin menambahkan ke bookmark? (y/t) : ").lower()
                         if bookmark == 'y' :
                             linked_list.refresh()
-                            linked_list.lihat_wisata()
+                            linked_list.lihatWisataBookmark()
                             wisata_bookmark = input("masukkan nama wisata yang ingin ditambahkan ke bookmark : ").capitalize()
                             b = BookmarkController()
                             result = b.find_bookmark (wisata_bookmark)
