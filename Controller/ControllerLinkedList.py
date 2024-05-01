@@ -56,6 +56,14 @@ class LinkedList():
             current_node = current_node.next
         print("--------------------------------------------------------------")
 
+    def lihatWisataBookmark(linked_list) :
+        current_node = linked_list.head
+        while current_node:
+            print("ID         :", current_node.id_wisata)
+            print("Nama Wisata:", current_node.nama_wisata)
+            print("Lokasi     :", current_node.lokasi)
+            print("--------------------------------------------------------------")
+            current_node = current_node.next
 
     def add_wisata(self, id_wisata, nama_wisata, deskripsi, lokasi):
         wisata_baru = WisataLinkedList(id_wisata, nama_wisata, deskripsi, lokasi)
