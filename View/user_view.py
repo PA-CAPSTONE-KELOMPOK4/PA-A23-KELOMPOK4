@@ -12,6 +12,7 @@ bookmark_controller = BookmarkController()
 db.connect()
 
 def menu_user():
+    from View.main_view import MainProgram
     while True :
         try :
             print("\n+--------------------------------------+")
@@ -28,6 +29,7 @@ def menu_user():
             elif pilihan == 2 :
                 login()
             elif pilihan == 3 :
+                MainProgram()
                 break
             else:
                 print("Input tidak valid. masukkan (1/2/3)")
@@ -133,24 +135,34 @@ def menu_pengunjung(id_user):
                 print("|         3. Urutkan Wisata        |")
                 print("|         4. Bookmark              |")
                 print("|         5. Lihat Profil          |")
-                print("|         6. keluar                |")
+                print("|         6. Keluar                |")
                 print("|                                  |")
                 print("+----------------------------------+")
                 opsi = str(input("Pilih opsi anda (1/2/3/4/5/6): "))
                 if opsi == '1':
                     os.system('cls')
                     print("====================================")
-                    print("|        CARI TEMPAT WISATA       |")
+                    print("|        CARI TEMPAT WISATA        |")
                     print("====================================")
                     while True:
-                        nama_wisata = input("Masukkan Nama Wisata yang ingin dicari: ").strip().capitalize()
+                        nama_wisata = input("Masukkan Nama Wisata yang ingin dicari: ")
                         hasil_pencarian = linked_list.JumpSearchNamaWisata(nama_wisata)
                         if hasil_pencarian is not None:
-                            print(f"Pesanan dengan ID {nama_wisata} ditemukan.")
-                            print("ID Wisata : ", hasil_pencarian.id_wisata)
+                            print(f"\n<<< Wisata '{nama_wisata}' ditemukan >>>")
+                            print("ID Wisata   : ", hasil_pencarian.id_wisata)
                             print("Nama Wisata : ", hasil_pencarian.nama_wisata)
-                            print("Deskripsi : ", hasil_pencarian.deskripsi)
-                            print("Lokasi : ", hasil_pencarian.lokasi)
+                            # hanya menampilkan 50 karakter dari deskripsi
+                            print("Deskripsi   : ", hasil_pencarian.deskripsi[:50] + "..." if len(hasil_pencarian.deskripsi) > 50 else hasil_pencarian.deskripsi)
+                            print("Lokasi      : ", hasil_pencarian.lokasi)
+
+                            if len(hasil_pencarian.deskripsi) > 50:
+                                if input("\nTekan Enter untuk melihat deskripsi lengkap atau ketik 'k' untuk keluar: ").lower() != 'k':
+                                    print("--------------------------------------------------------------")
+                                    print("\nDeskripsi Lengkap: ", hasil_pencarian.deskripsi)
+                                    print("--------------------------------------------------------------")
+                                else:
+                                    break
+                            break
                         break
 
                 elif opsi == '2':
@@ -160,8 +172,6 @@ def menu_pengunjung(id_user):
                     print("====================================")
                     linked_list.refresh()
                     linked_list.lihat_wisata()
-                    input("Tekan enter untuk kembali ...")
-                    os.system('cls')
 
                 elif opsi == '3':
                     os.system('cls')
@@ -222,11 +232,12 @@ def menu_pengunjung(id_user):
                     account = Account()
                     result = account.find_profil(id_user)
                     if result:
-                        print("     <<<    Login berhasil!    >>>\n")
+                        print("     <<<    Menampilkan profil    >>>\n")
                         break
 
                 elif opsi == '6':
                     menu_user()
+                    break
                 else:
                     print("Opsi tidak tersedia!")
 
