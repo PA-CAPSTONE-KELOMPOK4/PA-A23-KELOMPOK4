@@ -36,6 +36,7 @@ def login_admin():
             print("tidak valid")
 
 def menu_admin():
+    from View.main_view import MainProgram
     try:
         while True:
             print("+----------------------------------+")
@@ -179,6 +180,7 @@ def menu_admin():
                     print("Opsi tidak tersedia!")
                 
             elif opsi == '8':
+                MainProgram()
                 break
             else:
                 print("Opsi tidak tersedia!")
