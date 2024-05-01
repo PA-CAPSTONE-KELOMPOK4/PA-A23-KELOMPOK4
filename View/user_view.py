@@ -115,13 +115,6 @@ def login():
         except ValueError:
             print("terjadi kesalahan! ")
 
-def kembali():
-    while True :
-        b = input("\nTekan enter untuk kembali...")
-        if b == "":
-            os.system('cls')
-            break
-
 def menu_pengunjung(id_user):
         linked_list = LinkedList()
         try:
