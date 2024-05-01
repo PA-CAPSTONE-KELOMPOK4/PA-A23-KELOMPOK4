@@ -78,19 +78,22 @@ Program ini dibuat dengan menggunakan bahasa pemrograman Python dan mengimplemen
 
 - Didalam menu pengunjung terdapat 6 pilihan yang dapat dipilih. Yang pertama pengunjung dapat mencari tempat wisata dengan memasukkan nama wisata yang ingin dicari
 
-  ![Screenshot 2024-04-30 120857](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/9257bc29-d51a-4069-88b4-ef3eb6abd000)
+  ![Screenshot 2024-05-01 085639](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/06ec7c3a-633b-436c-97e2-209d100a15ee)
+
 
 
 - Didalam Pilihan "2" yaitu lihat wisata memungkinkan pengunjung untuk melihat daftar wisata yang ada di Kalimantan Timur
 
-  ![Screenshot 2024-04-30 101825](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/36318d9b-fa6b-4072-87ba-ef9d2ad6d82a)
+  ![Screenshot 2024-05-01 085717](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/6baae0d1-f0dd-4c4a-82eb-6743cf26b4f7)
+
 
 
 - Pada Pilihan "3" yaitu Urutkan wisata. Pengunjung dapat mengurutkan wisata berdasarkan nama dari awalan A-Z dan Z-A
 
-  ![Screenshot 2024-04-30 112110](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/2887d9f1-6279-47dd-b3a3-285993347bd1)
+  ![Screenshot 2024-05-01 085746](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/ef955653-8093-4c4b-9057-ea626e318a2d)
 
-  ![Screenshot 2024-04-30 112316](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/e3ac976b-eeca-4a4b-a333-c63abba32253)
+
+  ![Screenshot 2024-05-01 085803](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/eae97141-3cde-454d-9824-d03952254ef8)
 
 
 - Didalam pilihan "4" ada bookmark yang berguna untuk menyimpan tempat wisata yang pengunjung inginkan. Jika pilih "1" maka pengunjung bisa melihat tempat wisata yang telah ditambahkan ke bookmark
@@ -123,7 +126,8 @@ Program ini dibuat dengan menggunakan bahasa pemrograman Python dan mengimplemen
 
 - Pilihan yang kedua yaitu Lihat wisata. Admin dapat melihat daftar wisata yang telah dimasukkan ke dalam program
 
-   ![Screenshot 2024-04-30 101825](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/e38a938e-21df-4442-9644-f231ab8b2384)
+   ![Screenshot 2024-05-01 085717](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/ccf8f8f9-4a23-4e79-b294-498dde92f128)
+
 
 
 - pilihan yang ketiga yaitu edit wisata. Dibagian ini admin dapat merubah informasi dari daftar wisata yang telah tersedia. Admin dapat mengganti nama, deskripsi, dan lokasi baru
@@ -138,14 +142,16 @@ Program ini dibuat dengan menggunakan bahasa pemrograman Python dan mengimplemen
 
 - Pilihan yang kelima yaitu cari wisata. Admin dapat mencari tempat wisata dengan mencari menggunakan nama wisata.
 
-  ![Screenshot 2024-04-30 120857](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/292eff92-f650-4d36-805c-1a6988ebc0cd)
+  ![Screenshot 2024-05-01 085639](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/09aa957f-c420-4614-ae6b-2c34d70501be)
+
 
 
 - Pilihan yang kelima yaitu urutkan wisata. Didalam pilihan ini admin dapat mengurutkan wisata berdasarkan nama dari awalan A-Z dan Z-A
 
-  ![Screenshot 2024-04-30 112110](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/6acf3a30-7a75-4587-a30e-b37b5ab76a89)
+  ![Screenshot 2024-05-01 085746](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/15435bc8-206e-4e09-8765-6263f9553a46)
 
-  ![Screenshot 2024-04-30 112316](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/4dd760b8-8785-4ca7-8dbb-24f6fea18f09)
+
+  ![Screenshot 2024-05-01 085803](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/b1ee49a6-926c-4f96-a4bf-3823190a1da2)
 
 
 - Pilihan yang ke tujuh yaitu hubungi sponsor. Admin dapat lihat daftar sponsor dan menghubungi pihak-pihat tertentu untuk bisa melakukan sebuah kerja sama untuk meningkatkan daya tarik dari wisata yang ada di Kalimantan Timur.
