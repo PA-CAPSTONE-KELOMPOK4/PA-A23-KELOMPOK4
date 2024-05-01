@@ -55,7 +55,8 @@ Program ini dibuat dengan menggunakan bahasa pemrograman Python dan mengimplemen
 - tampilan menu utama
   Disini user bisa memilih login sebagai admin, login sebagai pengunjung dan keluar dari program.
   
-  ![Screenshot 2024-04-30 085200](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/9ea8986f-46a0-4870-85e6-16318f8677bb)
+   ![Screenshot 2024-05-01 085420](https://github.com/PA-CAPSTONE-KELOMPOK4/PA-A23-KELOMPOK4/assets/144673468/9688638f-b3c8-4ce7-b49e-6eb81deeb98c)
+
 
 
 ## Menu Pengunjung
