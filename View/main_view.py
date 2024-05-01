@@ -5,11 +5,13 @@ os.system("cls")
 
 def welcome():
     print("""
-========================================================
-||         Selamat Datang di Layanan Informasi        ||
-||          Tempat Wisata di Kalimantan Timur         ||
-========================================================
-< Jelajahi berbagai pesona tempat wisata yang memukau! >
+===================================================================
+||                                                               ||
+||         Selamat Datang di Layanan Informasi Tempat Wisata     ||
+||                    di Kalimantan Timur                        ||
+||                                                               ||
+===================================================================
+      < Jelajahi berbagai pesona tempat wisata yang memukau! >
 """)
 
 def MainProgram():
