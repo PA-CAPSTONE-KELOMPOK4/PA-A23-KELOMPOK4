@@ -30,13 +30,32 @@ class LinkedList():
 
     def lihat_wisata(linked_list):
         current_node = linked_list.head
+        if not current_node:
+            print("Tidak ada data wisata.")
+            return
+
         while current_node:
-            print("ID         :", current_node.id_wisata)
-            print("Nama Wisata:", current_node.nama_wisata)
-            print("Deskripsi  :", current_node.deskripsi)
-            print("Lokasi     :", current_node.lokasi)
             print("--------------------------------------------------------------")
+            print("ID Wisata   :", current_node.id_wisata)
+            print("Nama Wisata :", current_node.nama_wisata)
+            print("Lokasi      :", current_node.lokasi)
+            # hanya menampilkan 50 karakter dari deskripsi
+            preview_desc = current_node.deskripsi[:50] + "..." if len(current_node.deskripsi) > 50 else current_node.deskripsi
+            print("Deskripsi   :", preview_desc)
+            
+            user_input = input("Ingin lihat deskripsi lengkap? (y/t): ").lower()
+            if user_input == 'y':
+                print("Deskripsi Lengkap:", current_node.deskripsi)
+                print("--------------------------------------------------------------")
+            
+            continue_choice = input("Tekan 'k' untuk berhenti melihat wisata, atau tekan enter untuk melanjutkan... ").lower()
+            if continue_choice == 'k':
+                print("Keluar dari daftar wisata.")
+                break
+
             current_node = current_node.next
+        print("--------------------------------------------------------------")
+
 
     def add_wisata(self, id_wisata, nama_wisata, deskripsi, lokasi):
         wisata_baru = WisataLinkedList(id_wisata, nama_wisata, deskripsi, lokasi)
